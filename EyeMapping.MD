@@ -31,7 +31,7 @@ def eye_aspect_ratio(landmarks, eye_indices):
     vertical2 = ((p3.x - p5.x) ** 2 + (p3.y - p5.y) ** 2) ** 0.5
     horizontal = ((p1.x - p4.x) ** 2 + (p1.y - p4.y) ** 2) ** 0.5
     return (vertical1 + vertical2) / (2.0 * horizontal)
-
+```
 ## 2. Iris Center Estimation
 
 The **Iris Center Estimation** method finds the center of the iris by averaging the positions of iris landmarks.  
